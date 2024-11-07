@@ -5,21 +5,12 @@
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
             <img class="content-inside-photo" src="../images/photo.jpg">
-            <p>🎁收礼物啦！🎁</p>
-            <p>可爱的labubu✨</p>
-            <!-- <p><b>Jun & undefined</b></p>
-            <p>时间：invalid date value</p>
-            <p>地点：<b>location can not be found</b></p> -->
-            <!-- <input
-              class="content-inside-input"
-              placeholder="轻触写下祝福，按回车发送"
-              @keyup.enter="sendBarrage"
-              @focus="isFocused = true"
-              @blur="isFocused = false, hasEntered = false"
-              v-model="wish"
-              ref="wishInput"
-            > -->
-            <!-- <p v-if="!wish && isFocused && hasEntered">请输入祝福哦</p> -->
+            <p>🎁礼物开箱！🎁</p>
+            <p>🧑‍🤝‍🧑💍</p>
+            <p>新挑选了一对戒指，我想要紧紧的抓住你的手，一直一直走下去！</p>
+            <p>📷</p>
+            <p>选了富士，富士的胶片感很好看，一定能把宝宝的美貌完美呈现～</p>
+            <p>记录我们生活的小帮手，我会给宝宝拍好多好多好看的照片！</p>
           </div>
         </div>
         <div class="cover-inside-left" :class="{'opening':isOpening}"></div>

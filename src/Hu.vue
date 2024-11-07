@@ -1,5 +1,5 @@
 <template>
-  <div class="wedding">
+  <div class="hu-container">
     <Editor/>
   </div>
 </template>
@@ -12,7 +12,7 @@
     components: {
       Editor
     },
-    name: 'Wedding'
+    name: 'Hu'
   }
 
 </script>
@@ -23,7 +23,7 @@ html,
 body{
   height: 100%;
 }
-.wedding{
+.hu-container{
   position: relative;
   max-width: 568px!important;
   height: 100%;
